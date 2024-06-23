@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+
+<style>
+    .modal{
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,.50);
+    }
+    .modalcontent{
+        background-color: #fefefe;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 1000px;
+        z-index: 2;
+        height: 600px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        border-radius: 30px;
+    }
+    .close{
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .close:hover,
+    .close:focus{
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+   
+
+</style>
+
+
+
+
+
+
+
+<body>
+<div style="display: flex;">
+    <div>
+        <h1 class="btn">강북구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>강북구</h2>
+                <img style="height: 100px; width: 100px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUDPvFuSWugBJwCg1FGecdrC6VsXnlFOGlX9N2xYeeIkghYG4aj3El5-7BsvKsZSDxXjE&usqp=CAU" alt="강북구">
+
+            </div>
+        </div>
+
+        <h1 class="btn">강남구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>강남구</h2>
+                <img style="height: 100px;" width="150px" src="https://www.gangnam.go.kr/assets/images/contents/04/040601_img02.png" alt="강남구">
+                
+            </div>
+        </div>
+
+        <h1 class="btn">서초구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>서초구</h2>
+                <img style="height: 100px;" width="100px" src="https://yt3.googleusercontent.com/PoFxzvVBCX7seSc6WK1e9V7oKH_b6CJ-VwQ5lcVpm1n1aAY384yrrqyjemoUycHWurwn8V_92Q=s900-c-k-c0x00ffffff-no-rj" alt="서처구">
+            </div>
+        </div>
+
+        <h1 class="btn">강동구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>강동구</h2>
+                <img style="height: 100px;" width="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuf8p72VTHd97opCT8krq8GqZbWgDxGjaPNA&s" alt="강동구">
+            </div>
+        </div>
+
+        <h1 class="btn">송파구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>송파구</h2>
+                <img style="height: 100px;" width="100px" src="https://i.namu.wiki/i/4ljZVa3dNnpKq-ykzU2Nfq97gxox-N0ZKqfB8ky0WWzMCvc31KtaIkmfwa-AUkY3x6WpLMC2tW5Q38erv-zMhQ.svg" alt="송파구">
+            </div>
+        </div>
+
+        <h1 class="btn">동작구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>동작구</h2>
+                <img style="height: 100px;" width="100px" src="https://i.namu.wiki/i/k1JKIGjKOQJNwYvmKSFFYMquVcSJ7SCrd1Vg9DOKmVllLsFYvzSlSlSkkSnLHXbWbpZZs0Sx2TaLBCn2cHniAw.svg" alt="동작구">
+            </div>
+        </div>
+
+        <h1 class="btn">관악구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>관악구</h2>
+                <img style="height: 100px;" width="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT899E6kulz2RCKOy6H6erp6DofqkoPYJELmQ&s" alt="관악구">
+            </div>
+        </div>
+
+        <h1 class="btn">영등포구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>영등포구</h2>
+                <img style="height: 100px;" width="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTebPYdwBwQI4yX5VCZaRvjcV84J1hh4nQy5w&s" alt="영등포구">
+            </div>
+        </div>
+
+        <h1 class="btn">금천구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>금천구</h2>
+                <img style="height: 100px;" width="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZjkyAbGzX6WRCnyrU9A1lI58GCpvYdTtz5g&s" alt="금천구">
+            </div>
+        </div>
+
+        <h1 class="btn">구로구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>구로구</h2>
+                <img style="height: 100px;" width="150px" src="https://img.khan.co.kr/news/2021/11/17/l_2021111801002298400211561.jpg" alt="구로구">
+            </div>
+        </div>
+
+        <h1 class="btn">양천구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>양천구</h2>
+                <img style="height: 100px;" width="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRNV9RS12dDmX5Draut1Mu3bNQOLctvBdKPQ&s" alt="양천구">
+            </div>
+        </div>
+
+        <h1 class="btn">강서구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>강서구</h2>
+                <img style="height: 100px;" width="150px" src="https://www.newsro.kr/wp-content/uploads/2017/07/%EA%B0%95%EC%84%9C%EA%B5%AC%EC%B2%AD-1.jpg" alt="강서구">
+            </div>
+        </div>
+
+        <h1 class="btn">마포구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>마포구</h2>
+                <img style="height: 100px;" width="150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRGMKLnSaUnZfYMrfroy_GAoBTQi__Tm7gBg&s" alt="마포구">
+            </div>
+        </div>
+
+        <h1 class="btn">용산구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>용산구</h2>
+                <img style="height: 100px;" width="100px" src="https://i.namu.wiki/i/FeyMxyxyedTw3oEJ3FBkEnowPSqF4jTMjARPklkxvwz6rQXAzF60fyruYjjv-yf6sbrROsnCectw7WNtIbGIgQ.svg" alt="용산구">
+            </div>
+        </div>
+
+        <h1 class="btn">서대문구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>서대문구</h2>
+                <img style="height: 100px;" width="150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4axF0YmeKD7WPZJimTeiVNtnnzjkK8n_IZ1kNwmbz2hd5BqB_e2MlN1x5ra7SdZueuDw&usqp=CAU" alt="서대문구">
+            </div>
+        </div>
+
+        <h1 class="btn">은평구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>은평구</h2>
+                <img style="height: 100px;" width="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfhK-dRm-j5NhTdtBR2_UzGzBnDqBOTJeJg&s" alt="은평구">
+            </div>
+        </div>
+
+        <h1 class="btn">종로구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>종로구</h2>
+                <img style="height: 100px;" width="150px" src="https://i.namu.wiki/i/gzKax2Icu3UIr6xXci7pIg2QuSbfGhj36UZR2eIH6ojNeaUm_jx-WaVyvwmbUDjub5cEsmK7otmbdxNngbhVuw.webp" alt="종로구">
+            </div>
+        </div>
+
+        <h1 class="btn">성북구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>성북구</h2>
+                <img style="height: 100px;" width="100px" src="https://i.namu.wiki/i/Cgfaxx8C1NKKQa0h56ASY18lK0xj0PfCpltE7s1JYgegq7x8WYEa2MvN_QjMlsfHubSpA3MVwXhFfqOsH9sH-g.svg" alt="성북구">
+            </div>
+        </div>
+
+        <h1 class="btn">도봉구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>도봉구</h2>
+                <img style="height: 100px;" width="170px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7r2yIZWy0HvZHEfAKMH8mjujb_G8A0SMdDw&s" alt="도봉구">
+            </div>
+        </div>
+
+        <h1 class="btn">노원구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>노원구</h2>
+                <img style="height: 100px;" width="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZo4Uiufgr-GG9iT-Dp-wQj2z2fya0-9IUbA&s" alt="노원구">
+            </div>
+        </div>
+
+        <h1 class="btn">중랑구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>중랑구</h2>
+                <img style="height: 100px;" width="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn9AlVtLtoDqfTRzZXKYLE22OB13xsto3GvA&s" alt="중랑구">
+            </div>
+        </div>
+
+        <h1 class="btn">광진구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>광진구</h2>
+                <img style="height: 100px;" width="100px" src="https://yt3.googleusercontent.com/EvWFTgMofQ6kFLC5bIzLdKMOD1YOu-YG3Tfle9W2gD2RYkiVGcTmKqnQIoRR_b5fhDpUr8n9Kg=s900-c-k-c0x00ffffff-no-rj" alt="광진구">
+            </div>
+        </div>
+
+        <h1 class="btn">성동구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>성동구</h2>
+                <img style="height: 100px;" width="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxZOkEif1cdJsrmhUVqcrb5IbDI0iWX0kmWQ&s" alt="성동구">
+            </div>
+        </div>
+
+        <h1 class="btn">동대문구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>동대문구</h2>
+                <img style="height: 100px;" width="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT968GQmAcVmvyOnspytzJQdAbt4g78uTtscA&s" alt="동대문구">
+            </div>
+        </div>
+
+        <h1 class="btn">중구</h1>
+        <div class="modal">
+            <div class="modalcontent">
+                <span class="close">&times;</span>
+                <h2>중구</h2>
+                <img style="height: 100px;" width="100px" src="https://i.namu.wiki/i/jg-PqrlGrBZIlBCgUxNZBPe1dfVarcF5c3soq4jZigrDBPDM7pC6KQyloZ6vam4O1davozDiiZust8tl-VXIL25rmJ1cDhnwrTNCKp_tyx2jjCtw4_n8l-sg8JowuIZXNCvsnR7KJ6HAU8CAR13vd4hdIySw0VjMIyoUkr1xndQ.svg" alt="중구">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <img style="height: 573.75px; position: fixed; top: 180px;" width="792.45px"  src="https://cdn.discordapp.com/attachments/1081532035249754133/1254438014944411740/kor1_2019_50-2-removebg-preview.png?ex=66797df1&is=66782c71&hm=d103973b3e6b095e64647a7833b645fdbfc0a275b28faf218f98dce64f41857c&" alt="사진">
+    </div>
+
+    
+</div>
+
+
+
+    <script>
+        var modals=document.getElementsByClassName("modal");
+        var btns=document.getElementsByClassName("btn");
+        var spanes=document.getElementsByClassName("close");
+        var funcs=[];
+
+        function Modal(num){
+            return function(){
+                btns[num].onclick = function(){
+                    modals[num].style.display="block";
+                    console.log(num);
+                };
+                spanes[num].onclick=function(){
+                    modals[num].style.display="none";
+                };
+            };
+        }
+
+        for(var i=0; i<btns.length;i++){
+            funcs[i]=Modal(i);
+        }
+
+        for(var j=0; j<btns.length; j++){
+            funcs[j]();
+        }
+
+        window.onclick=function(event){
+            if(event.target.className=="modal"){
+                event.target.style.display="none";
+            }
+        };
+    </script>
+</body>
+</html>
